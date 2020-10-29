@@ -1,0 +1,208 @@
+@import "fonts.css";
+:root {
+  --primary: #dc143c;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.container {
+  background: #ffbbcc;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border {
+  border: 4px solid var(--primary);
+  border-radius: 10px;
+  height: 94vh;
+  margin: 3vh 5vh;
+  display: flex;
+  padding: 0px;
+  background: #fff;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.personal span {
+  font-size: 23px;
+  font-weight: 600;
+}
+.details span {
+  font-size: 10.5px;
+  font-weight: 600;
+}
+.add-bg {
+  background: var(--primary);
+  border-radius: 50%;
+}
+.left {
+  padding: 10px 5px 10px 5px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  height: 100.5%;
+  border-style: none solid none none;
+  border-color: var(--primary);
+  border-width: 4px;
+  margin: -0.5px 0px;
+}
+.pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pic {
+  width: 110px;
+  border-radius: 50%;
+  border: 4px solid var(--primary);
+  padding: 3px;
+}
+.per-details {
+  padding: 25px 0px 0px 0px;
+}
+.head {
+  display: flex;
+  align-items: center;
+}
+.head h3 {
+  margin-left: 10px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  padding: 15px 0 15px 10px;
+}
+.fill {
+  padding: 0 0 0 15px;
+}
+.icon-1 {
+  height: 30px;
+  width: 30px;
+  background: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.type-1 {
+  font-size: 15px;
+  color: white;
+}
+.type-2 {
+  font-size: 15px;
+  color: var(--primary);
+}
+.contact-details {
+  margin: 20px 0px 0px 0;
+}
+.add-cont {
+  margin: 15px 0px 0px 15px;
+}
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 7px 0 5px 0;
+  margin-left: 0px;
+}
+.address span {
+  font-size: 12.5px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.add-cont span {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.right {
+  width: 81%;
+  margin: -0.5px;
+}
+.heading {
+  background: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 15%;
+}
+.top {
+  width: 95%;
+  height: 35vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+.box {
+  padding: 30px 10px 10px 10px;
+  width: 45%;
+}
+.head-2 {
+  display: flex;
+}
+.head-2 h3 {
+  margin-left: 10px;
+}
+.about-cont {
+  width: 90%;
+  margin: 25px 0 0 10px;
+}
+.about-cont span {
+  font-size: 15px;
+}
+.educations {
+  margin: 20px 0 0 10px;
+}
+.bottom {
+  width: 95%;
+  height: 35vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+.skill {
+  width: 80%;
+  margin: 20px 0 0 10px;
+}
+.language {
+  width: 80%;
+  margin: 20px 0 0 10px;
+}
+.bar {
+  margin: 10px 0;
+}
+.bar:first-child {
+  margin-top: 0px;
+}
+.bar .info {
+  margin-bottom: 5px;
+}
+.bar .info span {
+  font-size: 13px;
+}
+.progress-line {
+  height: 10px;
+  width: 100%;
+  background: #dbdbdb;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05),
+    0 1px rgba(255, 255, 255, 0.8);
+}
+.progress-line span {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  background: var(--primary);
+}
+.progress-line.bengali span {
+  width: 100%;
+}
+.progress-line.hindi span {
+  width: 80%;
+}
+.progress-line.english span {
+  width: 60%;
+}
